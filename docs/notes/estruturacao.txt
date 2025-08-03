@@ -1,0 +1,21 @@
+
+c:\Users\norris\Downloads\image.png
+1. Dados que irei usar, tenho duas opções:
+    a. Criar um simulador de dados para detectar regiões de alta demanda com transformers em tempo real
+    b. Usar base de dados históricos de dados reais do v1, de solicitacoes, apenas simulando ele em tempo real.
+
+2. Preciso saber a frequência que será inserido no modelo (transformers)
+
+3. Requirementos de dados:
+    - localização espacial dos motoristas quando acontece a solicitação de viagem:
+        - Para os motoristas que estão com viagem em andamento, o interessante é a (lat, long) de destino, 
+        tal como o tempo para concluir e/ou km restante. (Essa feature, certamente teria que simular/construir 
+        indepemdente do método usado para simular as solicitacoes)
+    - localização espacial do cliente, do destino e de reposicionamento.
+
+4. O que seria uma região anomala em demanda?
+    - Região que possui um nível de demanda com maior quantidade de solicitacoes por usuario distintos 
+    do que motoristas próximos (oferta)
+
+5. O que é mais interessante:
+    a. Prever a demanda em determinada região, utilizando um método 

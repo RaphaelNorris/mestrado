@@ -1,0 +1,3 @@
+[ ] Preciso entender a distribuição de solicitacoes de acordo com o tempo para assim enteder a variabilidade das solicitacoes/
+desvio padrão temporal entre as solicitações.
+[ ]
